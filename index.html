@@ -9,11 +9,10 @@
 
 <body>
     <!--Replaced <div> to <header> to improve a structure-->
-
     <header>
         <div class="header">
             <h1>Hori<span class="seo">seo</span>n</h1>
-            <!--Replaced <div> to <nav> because it's a navigation bar. Also, it makes webcontent digestible by screen reader software-->
+            <!--Replaced <div> to <nav> to make webcontent digestible by screen reader software-->
             <nav class="header" aria-label="navigation bar">
                 <ul>
                     <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>                 
@@ -22,16 +21,15 @@
                 </ul>
             </nav>
         </div>
-
-        <!--Added aria-desribedby for screenreaders-->
+        <!--Added aria-describedby for screenreaders-->
         <div class="hero" aria-describedby="hero image: marketing meeting"></div>
     </header> 
 
     <!--Replaced <div> to <section> to improve a structure. Also, I added aria-label for screen-readers-->
-
     <section aria-label="section">
-        <div class="search-engine-optimization">
-            <!--Added alt-text to improve accessibility for the webpage -->
+        <!--Added id="search-engine-optimization" to fix the link-->
+        <div id="search-engine-optimization" class="search-engine-optimization">
+            <!--Added alt-text to <img> element to improve accessibility for the webpage -->
             <img src="./assets/images/search-engine-optimization.jpg" alt="Office desk with notebook, pencils and cup of coffee"class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -54,9 +52,7 @@
         </div>
     </section>
 
-
     <!--Replaced <div> to <aside> to improve a structure-->
-    
     <aside class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
