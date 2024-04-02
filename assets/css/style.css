@@ -47,7 +47,7 @@ body {
 
 /*Added hover*/
 .header nav ul li:hover {
-    background-color: rgb(0, 128, 21) ;
+    background-color: rgb(0, 128, 21);
 }
 
 a {
