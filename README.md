@@ -176,9 +176,9 @@ You are required to submit the following for review:
 4. CSS selectors and properties are consolidated appropriately.
 5. The webpage suffies the accessibility requirements. 
 
-* I learnt the following:
+* I learned the following:
 
-1. Refactoring is a common task, which helps to improve the exciting code.
+1. Refactoring is a common customers' request, which helps to improve the exciting code.
 2. Web accessibility standards.
 
 ## Installation
@@ -189,11 +189,13 @@ There are no changes that affect the installation process.
 
 To use this "AnnaK-code-refactor", you can review the comments at index.html and style.css pages or see the screenshots.
 
-SREENSHOTS
+## Screenshots
+
+![html comments screeshot](assets/images/1_html_comm_screenshot.png)
 
 ## Credits
 
-I folloewed the following tutorials:
+I followed the following tutorials:
 
 <https://medium.com/@OPTASY.com/writing-html-code-for-screen-readers-6-best-practices-bf8f2248318>
 
